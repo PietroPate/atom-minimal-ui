@@ -1,13 +1,16 @@
 {
-  "name": "ui-theme-template",
+  "name": "minimalist-cobalt-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "A basic UI",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "cobalt",
+    "minimalist",
+    "zen"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/PietroPate/minimalist-cobalt-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
