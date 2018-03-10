@@ -4,7 +4,8 @@
 
 @import "styles/alert";
 @import "styles/atom";
-@import "styles/base";
+@import "styles/autocomplete";
+// @import "styles/base";
 @import "styles/buttons";
 @import "styles/editor";
 @import "styles/find-and-replace";
@@ -19,9 +20,16 @@
 @import "styles/text";
 @import "styles/tooltips";
 @import "styles/tree-view";
+@import "styles/z-misc";
 
 @import "styles/packages/platformio-ide";
 
-// :root {
-//     font-size: @font-size;
-// }
+:root {
+    font-size: @font-size;
+}
+
+
+
+// NOTE: @accent-text-color <=> lighten(@syntax-text-color, 30%)
+// NOTE: @base-color <=> @syntax-selection-color;
+// NOTE: @accent-color <=> ???
