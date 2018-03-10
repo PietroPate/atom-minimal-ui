@@ -60,11 +60,15 @@
 @tab-bar-background-color:    @base-background-color;
 @tab-bar-border-color:        darken(@tab-background-color-active, 10%);
 @tab-background-color:        @base-background-color;
-@tab-background-color-active: lighten(@tab-bar-background-color, 10%); // COMBAK
+@tab-background-color-active: @base-background-color;
 @tab-border-color:            @base-border-color;
 
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color:     @base-border-color; // COMBAK
+
+// Scrollbar
+@scrollbar-background-color: @base-background-color;
+@scrollbar-color: fade(@base-color, 80%);
 
 // Site colors
 @ui-site-color-1: hsl(208, 100%, 50%); // blue

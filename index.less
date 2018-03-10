@@ -1,13 +1,9 @@
 // UI Theme
-// -------------------
-
-// This is the main file that imports all the Less files from the `/styles` directory.
-
-// For more infos about creating themes, check out:
-// http://flight-manual.atom.io/hacking-atom/sections/creating-a-theme
 
 @import "styles/ui-variables";
 
+@import "styles/alert";
+@import "styles/atom";
 @import "styles/base";
 @import "styles/buttons";
 @import "styles/editor";
@@ -23,3 +19,9 @@
 @import "styles/text";
 @import "styles/tooltips";
 @import "styles/tree-view";
+
+@import "styles/packages/platformio-ide";
+
+:root {
+    font-size: @font-size;
+}
