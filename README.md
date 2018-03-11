@@ -39,3 +39,13 @@ With [Atom Material Syntax Light](https://atom.io/themes/atom-material-syntax-li
 ![screenshot](https://i.imgur.com/czIiJLx.png?1)
 
 <br/>
+
+### Installation
+
+From the command line: `apm install atom-minimalist-ui`
+
+Or directly in Atom:
+
+1. Open __Settings__ > __Install__
+2. Set the filter to __Themes__
+3. Search for `atom-minimalist-ui` and click __Install__
