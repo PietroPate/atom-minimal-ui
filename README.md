@@ -1,16 +1,16 @@
 # Atom Minimal UI Theme
 
-A minimalist UI that lets the syntax theme shine.
+A minimal UI that lets the syntax theme shine.
 
 <br/>
 
-With [Atom Cobalt Material Syntax Theme](https://atom.io/themes/atom-cobalt-material-syntax):
+With [Atom Cobalt Material Syntax](https://atom.io/themes/atom-cobalt-material-syntax):
 
 ![screenshot](https://i.imgur.com/xYommlk.png)
 
 <br/>
 
-With [City Lights Syntax Theme](https://atom.io/themes/city-lights-syntax):
+With [City Lights Syntax](https://atom.io/themes/city-lights-syntax):
 
 ![screenshot](https://i.imgur.com/63o45gw.png)
 
