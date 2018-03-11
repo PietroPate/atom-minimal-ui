@@ -1,0 +1,21 @@
+.settings-view {
+    .config-menu {
+        background: none;
+        min-width: 180px;
+
+        .nav li {
+            a {
+                padding: 1.1em 1.5em;
+            }
+
+            &.active a {
+                background-color: @background-color-selected;
+                color: @text-color-selected;
+            }
+        }
+
+        .icon::before {
+            margin-right: 1.5em;
+        }
+    }
+}
