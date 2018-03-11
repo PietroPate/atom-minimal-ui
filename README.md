@@ -22,7 +22,7 @@ With [Chester Atom Syntax](https://atom.io/themes/chester-atom-syntax):
 
 <br/>
 
-With [Base16 Tomorrow Light Syntax](https://atom.io/themes/base16-tomorrow-light-theme):
+<!-- With [Base16 Tomorrow Light Syntax](https://atom.io/themes/base16-tomorrow-light-theme):
 
 ![screenshot](https://i.imgur.com/mQIC9PE.png)
 
@@ -31,5 +31,11 @@ With [Base16 Tomorrow Light Syntax](https://atom.io/themes/base16-tomorrow-light
 With [Atom Material Syntax](https://atom.io/themes/atom-material-syntax):
 
 ![screenshot](https://i.imgur.com/DHZewsb.png)
+
+<br/> -->
+
+With [Atom Material Syntax Light](https://atom.io/themes/atom-material-syntax-light):
+
+![screenshot](https://i.imgur.com/czIiJLx.png?1)
 
 <br/>
