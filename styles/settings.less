@@ -19,3 +19,42 @@
         }
     }
 }
+.input-checkbox {
+    border: .125em solid @background-color-selected;
+    background: none;
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+
+    &:active:not(:checked) {
+        background-color: fade(@background-color-selected, 25%);
+    }
+
+    &:checked {
+        background: @background-color-selected;
+
+        &::after,
+        &::before {
+            top: 1em;
+            left: .5em;
+            border: .1em solid @app-background-color;
+            background-color: @app-background-color;
+            animation: fadeIn 125ms linear;
+            animation-fill-mode: forwards;
+        }
+
+        &::before {
+            width: .5em;
+        }
+
+        &::after {
+            width: .85em;
+            animation-delay: 125ms;
+        }
+    }
+
+    &:focus {
+        box-shadow: 0 0 1em fade(@background-color-selected, 30%);
+    }
+}
