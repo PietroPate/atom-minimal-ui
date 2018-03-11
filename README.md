@@ -1,4 +1,4 @@
-# Atom Minimal UI Theme
+# Atom Minimal UI
 
 A minimal UI that lets the syntax theme shine.
 
