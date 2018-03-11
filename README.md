@@ -42,10 +42,10 @@ With [Atom Material Syntax Light](https://atom.io/themes/atom-material-syntax-li
 
 ### Installation
 
-From the command line: `apm install atom-minimalist-ui`
+From the command line: `apm install atom-minimal-ui`
 
 Or directly in Atom:
 
 1. Open __Settings__ > __Install__
 2. Set the filter to __Themes__
-3. Search for `atom-minimalist-ui` and click __Install__
+3. Search for `atom-minimal-ui` and click __Install__
