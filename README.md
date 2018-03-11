@@ -1,6 +1,6 @@
 # Atom Minimalist UI Theme
 
-A minimalist UI that lets the syntax theme shine. Works best with dark syntax themes.
+A minimalist UI that lets the syntax theme shine.
 
 <br/>
 

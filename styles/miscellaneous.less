@@ -5,6 +5,10 @@ background-tips {
     }
 }
 
+::-webkit-scrollbar {
+display: none; // removes scrollbars retaining functionality
+}
+
 .wrap-guide {
   visibility: hidden;
 }
@@ -13,7 +17,7 @@ background-tips {
     font-size: @font-size;
 }
 
-.md-underline(@underline-color) {
+.underline(@underline-color) {
     position: relative;
 
     &::after {

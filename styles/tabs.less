@@ -27,7 +27,7 @@
         transition: color 0.1s ease-in;
         font-size: 1em;
         font-weight: 300;
-        .md-underline(@background-color-selected);
+        .underline(@background-color-selected);
 
         .close-icon {
             color: @text-color;
@@ -130,7 +130,7 @@
             color: lighten(@syntax-text-color, 30%);
 
             &.active {
-                .md-underline(@text-color-highlight); //(@accent-color);
+                .underline(@text-color-highlight); //(@accent-color);
 
                 .close-icon {
                     color: lighten(@syntax-text-color, 30%);
