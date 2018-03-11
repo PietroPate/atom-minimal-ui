@@ -4,6 +4,18 @@
 
 // Overrides: atom/atom/static/buttons.less
 
+.btn {
+    &:focus, &:active {
+        outline: none;
+    }
+
+    .btn-group & {
+        box-shadow: none;
+        height: 100%;
+    }
+}
+
+
 
 .btn {
   color: lighten(@text-color, 6%);
