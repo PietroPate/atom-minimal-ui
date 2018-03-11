@@ -1,8 +1,8 @@
 {
-  "name": "minimalist-cobalt-ui",
+  "name": "atom-minimalist-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A basic UI",
+  "description": "A minimalist UI that lets the syntax theme shine",
   "keywords": [
     "ui",
     "theme",
@@ -10,7 +10,7 @@
     "minimalist",
     "zen"
   ],
-  "repository": "https://github.com/PietroPate/minimalist-cobalt-ui",
+  "repository": "https://github.com/PietroPate/atom-minimalist-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -1,6 +1,6 @@
-# Minimalist Cobalt UI Theme
+# Atom Minimalist UI Theme
 
-TBA
+A minimalist UI that lets the syntax theme shine. Works best with dark syntax themes.
 
 <br/>
 
