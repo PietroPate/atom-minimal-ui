@@ -20,7 +20,7 @@
     }
 }
 .input-checkbox {
-    border: .125em solid @background-color-selected;
+    border: .125em solid @background-color-info;
     background: none;
     position: relative;
     width: 1.5em;
@@ -32,7 +32,7 @@
     }
 
     &:checked {
-        background: @background-color-selected;
+        background: @background-color-info;
 
         &::after,
         &::before {
@@ -70,7 +70,7 @@
         }
 
         &:hover {
-            background-color: fade(@text-color, 5%);
+            background-color:  fade(@text-color, 5%);
         }
 
         .btn-group {

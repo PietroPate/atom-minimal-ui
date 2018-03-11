@@ -2,13 +2,13 @@
 @import "md-colors";
 // UI Variables
 
-// Text Colors
+// Text Color
 @text-color: fade(@syntax-text-color, 65%); // XXX
 @text-color-subtle: fade(@syntax-text-color, 35%);
 @text-color-highlight: @syntax-text-color; // XXX
 @text-color-selected:  lighten(@syntax-text-color, 30%); // XXX
 
-@text-color-info:    @md-blue-300;
+@text-color-info: @text-color-highlight;   //lighten(@background-color-selected,20%); // XXX
 @text-color-success: @md-light-green-500;
 @text-color-warning: @md-amber-400;
 @text-color-error:   @md-red-400;
@@ -20,12 +20,12 @@
 @text-color-removed:  @text-color-error;
 
 // Background colors
-@background-color-info:    @text-color-info;
+@background-color-info: lighten(@syntax-selection-color,10%);
 @background-color-success: @text-color-success;
 @background-color-warning: @text-color-warning;
 @background-color-error:   @text-color-error;
 
-@background-color-highlight: rgba(255, 255, 255, 0.07);
+@background-color-highlight: @syntax-selection-color;
 @background-color-selected: @syntax-selection-color;   // XXX
 @app-background-color: @syntax-background-color;  // XXX
 
