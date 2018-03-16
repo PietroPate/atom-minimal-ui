@@ -4,17 +4,17 @@
       background-color: @syntax-background-color ;
       color: @syntax-text-color;
       ::selection {
-        background-color: lighten(@syntax-background-color, 50%);
+        background-color:  lighten(@syntax-background-color, 50%);
       }
       .terminal-cursor {
         background-color: @syntax-cursor-color;
-        color: @syntax-cursor-color;
       }
     }
     .input-block {
-          padding: 0.1em;
+          padding: 0.01em;
+          display: none;
           .btn-toolbar {
-            padding: 0.1em;
+            padding: 0.01em
             display: none;
           }
         }
